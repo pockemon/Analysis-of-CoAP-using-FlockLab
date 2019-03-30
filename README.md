@@ -15,6 +15,16 @@ Fundamentals of SSH and CLI
 ## Mentors
 Vishal Rathod, Mohit P. Tahiliani
 
+## Steps to run Cooja
+1. Go to contiki/tools/cooja
+2. In terminal type: sudo ant jar
+                     sudo ant run
+                    
+## Steps to compile:
+1. sudo make clean TARGET=sky       //To remove any previously compiled code, this has to be done before compiling any new code
+2. make TARGET=sky <program_name> //Do not enter any extension likke .c when compiling
+
+
 ## References
 * CoAP (RFC 7252) (https://tools.ietf.org/html/rfc7252)
 * Comparison of CoAP and CoCoA+ Congestion Control Mechanisms for Different IoT Application Scenarios      
