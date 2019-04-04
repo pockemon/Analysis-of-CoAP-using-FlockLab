@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
+
+<testConf xmlns="http://www.flocklab.ethz.ch" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.flocklab.ethz.ch xml/flocklab.xsd">
+	<generalConf>
+		<name>Chain Topology</name>
+		<description>Topology for running CoAP on flocklab</description>
+		<scheduleAsap>
+			<durationSecs>60</durationSecs>
+		</scheduleAsap>
+		<emailResults>yes</emailResults>
+	</generalConf>
+	
+	<targetConf>
+		<obsIds>001</obsIds>
+		<voltage>3.3</voltage>
+		<dbImageId>33836</dbImageId>
+	</targetConf>
+
+    <targetConf>
+		<obsIds>002 003 004 006 008 016 022 028 033</obsIds>
+		<voltage>3.3</voltage>
+		<dbImageId>33835</dbImageId>
+	</targetConf>
+
+    <targetConf>
+		<obsIds>018</obsIds>
+		<voltage>3.3</voltage>
+		<dbImageId>33834</dbImageId>
+	</targetConf>
+
+	
+</testConf>
