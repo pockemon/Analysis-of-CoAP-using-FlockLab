@@ -1,0 +1,67 @@
+<testConf xmlns="http://www.flocklab.ethz.ch" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.flocklab.ethz.ch xml/flocklab.xsd">
+	<generalConf>
+		<name>Chain Topology</name>
+		<description>Topology for running CoAP on flocklab</description>
+		<scheduleAsap>
+			<durationSecs>60</durationSecs>
+		</scheduleAsap>
+		<emailResults>yes</emailResults>
+	</generalConf>
+	
+	<targetConf>
+		<obsIds>001</obsIds>
+		<voltage>3.3</voltage>
+		<dbImageId>33836</dbImageId>
+	</targetConf>
+
+    <targetConf>
+		<obsIds>002 003 004 006 008 016 022 028 033</obsIds>
+		<voltage>3.3</voltage>
+		<dbImageId>33835</dbImageId>
+	</targetConf>
+
+    <targetConf>
+		<obsIds>018</obsIds>
+		<voltage>3.3</voltage>
+		<dbImageId>33834</dbImageId>
+	</targetConf>
+	
+	<serialConf>
+		<obsIds>002 003 004 006 008 016 022 028 033</obsIds>
+		<baudrate>115200</baudrate>
+		<mode>ascii</mode>
+	</serialConf>
+	
+	<gpioTracingConf>
+		<obsIds>002 003 004 006 008 016 022 028 033</obsIds>
+		<pinConf>
+			<pin>LED1</pin>
+			<edge>both</edge>
+			<mode>continuous</mode>
+		</pinConf>
+		<pinConf>
+			<pin>LED2</pin>
+			<edge>both</edge>
+			<mode>continuous</mode>
+		</pinConf>
+		<pinConf>
+			<pin>LED3</pin>
+			<edge>both</edge>
+			<mode>continuous</mode>
+		</pinConf>
+	</gpioTracingConf>
+	
+	<powerProfilingConf>
+		<obsIds>002 003 004 006 008 016 022 028 033</obsIds>
+		<profConf>
+			<durationMillisecs>60000</durationMillisecs>
+			<relativeTime>
+				<offsetSecs>0</offsetSecs>
+			</relativeTime>
+			<samplingDivider>128</samplingDivider>
+		</profConf>
+	</powerProfilingConf>
+
+
+	
+</testConf>
