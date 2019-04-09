@@ -3,7 +3,7 @@
 		<name>Chain Topology</name>
 		<description>Topology for running CoAP on flocklab</description>
 		<scheduleAsap>
-			<durationSecs>60</durationSecs>
+			<durationSecs>180</durationSecs>
 		</scheduleAsap>
 		<emailResults>yes</emailResults>
 	</generalConf>
