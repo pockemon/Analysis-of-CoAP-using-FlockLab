@@ -6,11 +6,6 @@ Constrained Application Protocol (CoAP) is an application protocol for Internet 
 
 ### Required experience
 Fundamentals of SSH and CLI
-
-## Team Members
- 1. Hardik Rana - 16CO138
- 2. Amal Byju - 16CO205
- 3. Harshal Shinde - 16CO223
  
 ## Mentors
 Vishal Rathod, Mohit P. Tahiliani
